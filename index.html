@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Exercicio Dev</title> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="clientes.js"></script>
+</head>
+
+<body>
+    
+    <header>
+        
+        <div class="logo">
+            <img src="logo-inffel.png" alt="logo" />
+    </header>
+
+    <h1>Exercício do Desenvolvedor! </h1><br>
+    <div class="cliente" id="clientes"></div>
+    
+    <script>
+        //Informação da página
+        const jsonComHtml = {
+            Clientes: `<a href="file:///C:/Users/dryka/Desktop/exerc%C3%ADcio%20de%20dev/clientes.json">Informação do Cliente</a>`
+        }
+        document.getElementById("clientes").innerHTML = jsonComHtml.Clientes;
+
+    </script>
+
+    
+</body>
+
+
+
+</html>

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+    outline: 0;    
+}
+
+body {
+    height: 100vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    background-color: darkgrey;
+   
+}
+
+header {
+    background-color: darkred;
+  
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 980px;
+    height: 80px;
+    margin: 10px;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 120px;
+}
+.cliente {
+    font-size: 30px;
+    line-height: 100px;
+    font-weight: 400;
+    color: rgb(67, 236, 0);
+    transition: all 0.5s ease 0s;
+    
+}
+.cliente:hover{
+    transform: translateY(-9px);
+}
